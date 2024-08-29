@@ -14,8 +14,17 @@ export function GridBackgroundDemo() {
           Stay ahead in your job search with real-time tracking of every
           application, from submission to decision.
         </p>
+        <div className="absolute z-10 top-[620px] left-28 w-52 h-52 rotate-6 ">
+          <img src="/imgs/svgs/arrow-right.svg" />
+        </div>
+        <div className="absolute z-10 top-[620px] right-28 w-52 h-52 -rotate-6 ">
+          <img
+            src="/imgs/svgs/arrow-right.svg"
+            className="transform scale-x-[-1]"
+          />
+        </div>
         <Button className="text-lg rounded-none">Start Now</Button>
-        <div className="w-[1100px] h-[700px] bg-textBlack absolute -bottom-[430px]">
+        <div className="w-[1300px] h-[800px] bg-textBlack absolute -bottom-[530px] rounded-lg overflow-hidden shadow-lg shadow-black/25 z-30">
           <img src="/dashboard.png" className="w-full h-full object-cover" />
         </div>
       </div>
